@@ -1,0 +1,12 @@
+num=range(1,100)
+new_list= []
+for i in num:
+  if i % 3 == 0 :
+    print("fizz")
+  elif i % 5 == 0:
+    print("buzz")
+  elif i % 15 == 0 :
+    print("fizzbuzz")
+  else :
+    new_list.append(i)
+print(new_list)
